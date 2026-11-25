@@ -2,7 +2,10 @@
 name = "comcc"
 version = "0.1.0"
 edition = "2024"
+license = "GPL-3.0"
+license-file = "LICENSE"
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
 inkwell = { version = "0.11", features = ["llvm23-1-prefer-dynamic"] }
+logos = { version = "0.16" }
