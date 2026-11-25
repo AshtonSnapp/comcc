@@ -1,0 +1,8 @@
+[package]
+name = "comcc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+inkwell = { version = "0.11", features = ["llvm23-1-prefer-dynamic"] }
